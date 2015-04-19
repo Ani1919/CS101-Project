@@ -1,0 +1,26 @@
+TRANSCRPIT:
+Download 'AVR bootloader' folder and click on the setup application file.
+Dont click on AVR Bootloader setup
+Use the browser the folder where you want to install the bootloader .
+Then select everyone from the two options available and click on next.
+ I am going to download AVR bootloader in Program files x86.
+Click  next to start the installation.
+Do not press the cancel wait for the installation to complete.
+Click close to complete the installation.
+Now Avr bootloader is successfully installed in the computer.
+How to use AVR Bootloader?
+After clicking AVR Bootloader ,you will see a windows as shown.
+Now connect robot to the computer via USB chord and connect power supply to the robot.
+You will see COM port option , COM 5.
+If COM 5 is not available ,right click on my PC icon , manage.
+Click on  device manager.
+In the device manager expand the ports option and right click on USB serial port option to which the robot is connected and select properties.
+In properties click on the Advanced button.
+In COM port number scroll to select the COM 5. Here already I had COM 5 but you can select COM 5 from here  if it is not available for you.  Now returning to the AVR bootloader.
+Select the baud rate as 115200.
+Select the microcontroller as ATmega 2560.
+Press the browse button and select the hex file that is present in the Debug folder of the project you have created.
+Here is a project for white line follower.
+Click on the program.
+The program is burnt in the bot.
+Thank you.
